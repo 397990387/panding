@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/index",
+    "pages/logs/logs"
+  ],
+  "usingComponents":{
+    "play":"/mylove/dog"
+ },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f93553",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#f93553",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/image/home.png",
+      "selectedIconPath": "/image/home-o.png"
+    },{
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "/image/my.png",
+      "selectedIconPath": "/image/my-o.png"
+    }]
+  }
+}
